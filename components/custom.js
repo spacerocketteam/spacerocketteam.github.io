@@ -8,8 +8,8 @@ function phoneScreen(appname){
       document.getElementById('phone_slider').src = './images/info-screen.webp';
       break;
     
-    /*case 'MensagensDeDeus':
-      document.getElementById('phone_slider').src = 'http://static.mnium.org/images/contenu/actus/JeuxVideo/Pokemon/pokemon_go/pokemon_go_screenshot_field_tests_3_hd.jpg';
-      break;*/
+    case 'MensagensDeDeus':
+      document.getElementById('phone_slider').src = './images/msgdeus-screen.webp';
+      break;
   } 
 };
