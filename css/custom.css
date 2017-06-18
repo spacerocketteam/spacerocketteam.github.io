@@ -25,42 +25,7 @@
   }
 }
 
-/*
-@media only screen and (min-width: 1070px) {
-  .cd-image-container {
-    height: 402px;
-    width: 100%;
-    float: center; /*left;*//*
-    max-width: none;
-    padding-top: 0;
-  }
-  .cd-image-container > div {
-    display: inline-block;
-    max-width: 100%;
-    max-height: 100%;
-    float: center;
-  }
-  .cd-image-container img {
-    height: 402px;
-    -webkit-transition: -webkit-transform 0.3s;
-    -moz-transition: -moz-transform 0.3s;
-    transition: transform 0.3s;
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0);*//*
-  }
-  .cd-move-right .cd-image-container img {
-    -webkit-transform: translateX(100%);
-    -moz-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    -o-transform: translateX(100%);
-    transform: translateX(100%);
-  }
 
-}
-*/
 
 .cd-phone-frame {
   /* Phone in CSS */
@@ -123,3 +88,134 @@ img {
 }
 
 
+/* form index.html */
+
+      .hidden.menu {
+      display: none;
+      }
+      .masthead.segment {
+      min-height: 700px;
+      padding: 1em 0em;
+      }
+      .masthead .logo.item img {
+      margin-right: 1em;
+      }
+      .masthead .ui.menu .ui.button {
+      margin-left: 0.5em;
+      }
+      .masthead h1.ui.header {
+      margin-top: 3em;
+      margin-bottom: 0em;
+      font-size: 4em;
+      font-weight: normal;
+      }
+      .masthead h2 {
+      font-size: 1.7em;
+      font-weight: normal;
+      }
+      .ui.vertical.stripe {
+      padding: 8em 0em;
+      }
+      .ui.vertical.stripe h3 {
+      font-size: 2em;
+      }
+      .ui.vertical.stripe .button + h3,
+      .ui.vertical.stripe p + h3 {
+      margin-top: 3em;
+      }
+      .ui.vertical.stripe .floated.image {
+      clear: both;
+      }
+      .ui.vertical.stripe p {
+      font-size: 1.33em;
+      }
+      .ui.vertical.stripe .horizontal.divider {
+      margin: 3em 0em;
+      }
+      .quote.stripe.segment {
+      padding: 0em;
+      }
+      .quote.stripe.segment .grid .column {
+      padding-top: 5em;
+      padding-bottom: 5em;
+      }
+      .footer.segment {
+      padding: 5em 0em;
+      }
+      .secondary.pointing.menu .toc.item {
+      display: none;
+      }
+      @media only screen and (max-width: 700px) {
+      .ui.fixed.menu {
+      display: none !important;
+      }
+      .secondary.pointing.menu .item,
+      .secondary.pointing.menu .menu {
+      display: none;
+      }
+      .secondary.pointing.menu .toc.item {
+      display: block;
+      }
+      .masthead.segment {
+      min-height: 350px;
+      }
+      .masthead h1.ui.header {
+      font-size: 2em;
+      margin-top: 1.5em;
+      }
+      .masthead h2 {
+      margin-top: 0.5em;
+      font-size: 1.5em;
+      }
+      }
+
+/*part II*/
+ .masthead.segment {
+      min-height: 0px;
+      padding: 1em 0em;
+      }
+      .ui.vertical.segment {
+      border-bottom: 1px solid rgba(0, 0, 0, 0); */
+      }
+      a {
+      color: #000000;
+      }
+      lk {
+      cursor: pointer;
+      }
+      .ui.secondary.inverted.menu lk.item {
+          color: rgba(255,255,255,.7)!important;
+      }
+      .ui.secondary.inverted.menu lk.item:hover {
+          color: #fff!important;
+      }
+      lk.item:hover {
+          color: #fff!important;
+      }
+
+      .ui.celled.grid > .row > .column {
+    box-shadow: none;
+}
+
+
+
+.custom-margin-logo{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.image.logo-home{
+  max-width: 800px
+}
+
+.text-app-show{
+  text-align: justify;
+}
+
+.contact-text-area{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 168px;
+}

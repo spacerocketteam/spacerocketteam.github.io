@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /CittiCard.html
+Disallow: /*.php$
+Allow: /MensagensDeDeus.html
+
+Sitemap: http://spacerocket.com.br/sitemap.xml
