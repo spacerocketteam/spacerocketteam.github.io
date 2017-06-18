@@ -86,7 +86,7 @@
     <link rel="stylesheet" href="./css/custom.css"/>
 
     -->
-     <link rel="stylesheet" href="./css/output.min.css"/>
+    
 
 
     <!-- Resource style -->
@@ -208,42 +208,7 @@
        
     <!-- <script src="./js/jquery-3.2.1.js"></script>-->
      
-    <script src="./js/jquery-3.2.1.min.js"></script>
-
-
-     <script src="./js/output.min.js"></script>
-
-    <script type="text/javascript">
-      
-$(document)
-    .ready(function() {
-
-        // fix menu when passed
-        $('.masthead')
-            .visibility({
-                once: false,
-                onBottomPassed: function() {
-                    $('.fixed.menu').transition('fade in');
-                },
-                onBottomPassedReverse: function() {
-                    $('.fixed.menu').transition('fade out');
-                }
-            });
-
-        $('.ui.sidebar')
-            .sidebar('attach events', '.toc.item');
-    });
-
-
-
-$(document).on('click', 'lk', function(event) {
-    event.preventDefault();
-
-    $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top
-    }, 500);
-});
-    </script>
+    
 
 
     <!--<script>
@@ -650,5 +615,43 @@ $(document).on('click', 'lk', function(event) {
         </div>
       </div>
     </div>
+     <link rel="stylesheet" href="./css/output.min.css"/>
+     <script src="./js/jquery-3.2.1.min.js"></script>
+
+
+     <script src="./js/output.min.js"></script>
+
+    <script type="text/javascript">
+      
+$(document)
+    .ready(function() {
+
+        // fix menu when passed
+        $('.masthead')
+            .visibility({
+                once: false,
+                onBottomPassed: function() {
+                    $('.fixed.menu').transition('fade in');
+                },
+                onBottomPassedReverse: function() {
+                    $('.fixed.menu').transition('fade out');
+                }
+            });
+
+        $('.ui.sidebar')
+            .sidebar('attach events', '.toc.item');
+    });
+
+
+
+$(document).on('click', 'lk', function(event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
+    </script>
   </body>
+
 </html>
