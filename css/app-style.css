@@ -359,7 +359,7 @@ html, body {
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
     left: 0;
-    text-align: left;
+   text-align: left; /* ALTERADO POR MIM */
     border-top: none;
     padding: 0;
     visibility: visible;
